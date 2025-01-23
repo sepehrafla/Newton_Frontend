@@ -1,0 +1,88 @@
+.crypto-table {
+  background-color: #1a1b2e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 0.5fr;
+  padding: 1rem 1.5rem;
+  background-color: #0a0b1e;
+  color: #8a8f98;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 0.5fr;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #2a2b3e;
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background-color: #2a2b3e;
+}
+
+.coin-col {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.coin-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.coin-name {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.coin-symbol {
+  color: #8a8f98;
+  font-size: 0.85rem;
+}
+
+.change-col {
+  color: #ff4d4d;
+}
+
+.price-col {
+  font-weight: 500;
+}
+
+.watch-btn {
+  background: transparent;
+  border: none;
+  color: #8a8f98;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+  padding: 0.5rem;
+}
+
+.watch-btn:hover {
+  color: #00e9a3;
+} 
