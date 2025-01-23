@@ -1,0 +1,71 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+  width: 1065px;
+  margin: 0 auto;
+}
+
+.hero-left {
+  display: flex;
+  padding: 64px 0px 32px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.hero-title {
+  width: 364px;
+  color: #FFF;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 83.333% */
+  letter-spacing: -0.64px;
+  margin: 0;
+}
+
+.hero-subtitle {
+  color: #9698D1;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.hero-signup-btn {
+  display: flex;
+  padding: 15px 48px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 64px;
+  background: #2FE1B9;
+  color: #14192F;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  margin-top: 32px; /* Add space between subtitle and button */
+}
+
+.hero-signup-btn:hover {
+  background: #2FE1B9;
+  opacity: 0.9;
+}
+
+.hero-cards {
+  display: flex;
+  gap: 16px;
+} 

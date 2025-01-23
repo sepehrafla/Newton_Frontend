@@ -74,11 +74,20 @@
 }
 
 .change-col {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
   color: #ff4d4d;
 }
 
 .price-col {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
   font-weight: 500;
+  line-height: 16px;
   transition: color 0.3s ease;
 }
 
@@ -124,4 +133,18 @@
 
 .change-col.negative {
   color: #ff4d4d;
+}
+
+.table-header .col {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.table-header .col:hover {
+  color: #2FE1B9;
+}
+
+.table-header .col:last-child {
+  cursor: default;
 } 
