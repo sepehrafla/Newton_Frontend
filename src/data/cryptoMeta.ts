@@ -309,4 +309,4 @@ export const CRYPTO_META: CryptoMeta[] = [
   }
 ];
 
-export const WS_URL = 'ws://127.0.0.1:8000/markets/ws/'
+export const WS_URL = 'ws://127.0.0.1:8000/markets/ws/';

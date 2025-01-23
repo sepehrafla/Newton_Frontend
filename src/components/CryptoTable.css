@@ -20,11 +20,19 @@
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 0.5fr;
   padding: 1rem 1.5rem;
   border-bottom: 1px solid #2a2b3e;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 
 .table-row:hover {
   background-color: #2a2b3e;
+}
+
+.table-row.has-data {
+  background-color: rgba(0, 233, 163, 0.05);
+}
+
+.table-row.has-data:hover {
+  background-color: rgba(0, 233, 163, 0.1);
 }
 
 .coin-col {
@@ -71,6 +79,11 @@
 
 .price-col {
   font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.has-data .price-col {
+  color: #ffffff;
 }
 
 .watch-btn {
@@ -85,4 +98,30 @@
 
 .watch-btn:hover {
   color: #00e9a3;
+}
+
+.connection-status {
+  padding: 0.5rem 1rem;
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.status-connected {
+  color: #00e9a3;
+}
+
+.status-disconnected {
+  color: #ff4d4d;
+}
+
+.status-error {
+  color: #ff4d4d;
+}
+
+.change-col.positive {
+  color: #00e9a3;
+}
+
+.change-col.negative {
+  color: #ff4d4d;
 } 

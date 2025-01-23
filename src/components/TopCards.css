@@ -53,4 +53,12 @@
 .change {
   color: #ff4d4d;
   font-size: 0.9rem;
+}
+
+.change.positive {
+  color: #00e9a3;
+}
+
+.change.negative {
+  color: #ff4d4d;
 } 
